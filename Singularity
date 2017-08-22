@@ -12,4 +12,5 @@ mkdir -p /mnt/ffs17
 mkdir -p /mnt/local
 mkdir -p /mnt/ls15
 mkdir -p /opt/software
+chmod o+r /opt/conda/lib/python2.7/site-packages/.wh.conda-4.3.14-py2.7.egg-info
 
