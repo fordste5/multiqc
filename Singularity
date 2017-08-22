@@ -3,13 +3,13 @@ From:pvdb90/multiqc
 
 
 %post
-mkdir /boot
-mkdir /cvmfs
-mkdir /mnt/home
-mkdir /mnt/research
-mkdir /mnt/dfs17
-mkdir /mnt/ffs17
-mkdir /mnt/local
-mkdir /mnt/ls15
-mkdir /opt/software
+mkdir -p /boot
+mkdir -p /cvmfs
+mkdir -p /mnt/home
+mkdir -p /mnt/research
+mkdir -p /mnt/dfs17
+mkdir -p /mnt/ffs17
+mkdir -p /mnt/local
+mkdir -p /mnt/ls15
+mkdir -p /opt/software
 
